@@ -200,11 +200,11 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 15)
                 {
-                    scene = 19;
+                    scene = 21;
                 }
                 if (scene == 16)
                 {
-                    scene = 20;
+                    scene = 18;
                 }
 
                 else if (scene == 17)
@@ -236,6 +236,11 @@ namespace schneesturm_snowstorm__multichoice_story
                     scene = 99;
                 }
             }
+        }
+
+        private void OutPutLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
