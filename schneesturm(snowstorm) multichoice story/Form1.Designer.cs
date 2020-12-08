@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.outputLabel = new System.Windows.Forms.Label();
-            this.carStuckSnow = new System.Windows.Forms.PictureBox();
             this.redLabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
+            this.carStuckSnow = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,16 +43,6 @@
             this.outputLabel.Size = new System.Drawing.Size(311, 208);
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = "welcome to snowstorm";
-            // 
-            // carStuckSnow
-            // 
-            this.carStuckSnow.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.car_stuck_in_snow;
-            this.carStuckSnow.Location = new System.Drawing.Point(-37, -31);
-            this.carStuckSnow.Name = "carStuckSnow";
-            this.carStuckSnow.Size = new System.Drawing.Size(518, 489);
-            this.carStuckSnow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.carStuckSnow.TabIndex = 1;
-            this.carStuckSnow.TabStop = false;
             // 
             // redLabel
             // 
@@ -73,6 +63,16 @@
             this.blueLabel.Size = new System.Drawing.Size(214, 25);
             this.blueLabel.TabIndex = 3;
             this.blueLabel.Text = "Press n to start";
+            // 
+            // carStuckSnow
+            // 
+            this.carStuckSnow.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.car_stuck_in_snow;
+            this.carStuckSnow.Location = new System.Drawing.Point(-37, -31);
+            this.carStuckSnow.Name = "carStuckSnow";
+            this.carStuckSnow.Size = new System.Drawing.Size(518, 489);
+            this.carStuckSnow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.carStuckSnow.TabIndex = 1;
+            this.carStuckSnow.TabStop = false;
             // 
             // Form1
             // 
