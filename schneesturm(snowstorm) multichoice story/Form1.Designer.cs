@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.outPutLabel = new System.Windows.Forms.Label();
-            this.startButton = new System.Windows.Forms.Button();
             this.carStuckSnow = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // outPutLabel
@@ -43,21 +44,6 @@
             this.outPutLabel.TabIndex = 0;
             this.outPutLabel.Text = "welcome to snowstorm";
             // 
-            // startButton
-            // 
-            this.startButton.FlatAppearance.BorderSize = 0;
-            this.startButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.startButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.startButton.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.red_button;
-            this.startButton.Location = new System.Drawing.Point(591, 128);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(72, 41);
-            this.startButton.TabIndex = 2;
-            this.startButton.Text = "start";
-            this.startButton.UseVisualStyleBackColor = true;
-            this.startButton.Click += new System.EventHandler(this.StartButton_Click);
-            // 
             // carStuckSnow
             // 
             this.carStuckSnow.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.car_stuck_in_snow;
@@ -68,19 +54,28 @@
             this.carStuckSnow.TabIndex = 1;
             this.carStuckSnow.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(522, 143);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.carStuckSnow);
             this.Controls.Add(this.outPutLabel);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,7 +84,7 @@
 
         private System.Windows.Forms.Label outPutLabel;
         private System.Windows.Forms.PictureBox carStuckSnow;
-        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
