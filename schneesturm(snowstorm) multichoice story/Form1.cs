@@ -20,7 +20,9 @@ namespace schneesturm_snowstorm__multichoice_story
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs m)
-        {
+        {//this is for if the player presses the m key
+            // this key bind is blue in other words always left
+            //If a same sanario has one option make both keybinds the same option 
             if (m.KeyCode == Keys.M)
             {
                 if (scene == 0)
@@ -42,7 +44,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 4)
                 {
-                    scene =8;
+                    scene =41;
                 }
                 else if (scene == 5)
                 {
@@ -60,32 +62,66 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene =14;
                 }
-
+                //There was no 9,10,12 on the chart or plan 
+                //note to self move these later in order
                 else if (scene == 16)
                 {
                     scene =20;
                 }
-                else if (scene == 10 )
+                else if (scene == 18)
                 {
-                    scene =;
+                    scene =99;
                 }
                 else if (scene == 11)
                 {
-                    scene = ;
+                    scene = 23;
                 }
-                else if (scene == 12)
+                else if (scene ==99)
                 {
                     scene = ;
                 }
                 else if (scene == 13)
                 {
-                    scene = ;
+                    scene = 99;
                 }
                 else if (scene == 14)
                 {
-                    scene = ;
+                    scene =99;
                 }
                 else if (scene == 15)
+                {
+                    scene=19
+                }
+                if (scene == 16)
+                {
+                    scene = ;
+                }
+
+                else if (scene ==17 )
+                {
+                    scene = ;
+                }
+                else if (scene ==18 )
+                {
+                    scene = ;
+                }
+                else if (scene ==19 )
+                {
+                    scene = ;
+                }
+                else if (scene ==20 )
+                {
+                    scene = ;
+                }
+                else if (scene ==21 )
+                {
+                    scene = ;
+                }
+                else if (scene ==22 )
+                {
+                    scene = ;
+                }
+                else if (scene == )
                 {
 
                 }
