@@ -15,7 +15,7 @@ namespace schneesturm_snowstorm__multichoice_story
         int scene = 0;
         public Form1()
         {
-           
+
             InitializeComponent();
         }
 
@@ -33,51 +33,51 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 1)
                 {
-                    scene =4;
+                    scene = 4;
                 }
                 else if (scene == 2)
                 {
-                    scene =5;
+                    scene = 5;
                 }
                 else if (scene == 3)
                 {
-                    scene =99;
+                    scene = 99;
                 }
                 else if (scene == 4)
                 {
-                    scene =42;
+                    scene = 42;
                 }
                 else if (scene == 5)
                 {
-                    scene =11 ;
+                    scene = 11;
                 }
                 else if (scene == 6)
                 {
-                    scene =14;
+                    scene = 14;
                 }
                 else if (scene == 7)
                 {
                     scene = 17;
                 }
-                if (scene ==8)
+                if (scene == 8)
                 {
-                    scene =14;
+                    scene = 14;
                 }
                 //There was no 9,10,12 on the chart or plan 
                 //note to self move these later in order
                 else if (scene == 16)
                 {
-                    scene =20;
+                    scene = 20;
                 }
                 else if (scene == 18)
                 {
-                    scene =99;
+                    scene = 99;
                 }
                 else if (scene == 11)
                 {
                     scene = 23;
                 }
-                else if (scene ==99)
+                else if (scene == 99)
                 {
                     scene = 0;
                 }
@@ -87,7 +87,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 14)
                 {
-                    scene =99;
+                    scene = 99;
                 }
                 else if (scene == 15)
                 {
@@ -95,36 +95,36 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 if (scene == 16)
                 {
-                    scene =20;
+                    scene = 20;
                 }
 
-                else if (scene ==17 )
+                else if (scene == 17)
                 {
                     scene = 99;
                 }
-                else if (scene ==18 )
-                {
-                    scene =99;
-                }
-                else if (scene ==19 )
-                {
-                    scene =99 ;
-                }
-                else if (scene ==20 )
+                else if (scene == 18)
                 {
                     scene = 99;
                 }
-                else if (scene ==21 )
+                else if (scene == 19)
                 {
                     scene = 99;
                 }
-                else if (scene ==23 )//there is also no 22,24
+                else if (scene == 20)
                 {
-                    scene =99 ;
+                    scene = 99;
+                }
+                else if (scene == 21)
+                {
+                    scene = 99;
+                }
+                else if (scene == 23)//there is also no 22,24
+                {
+                    scene = 99;
                 }
                 else if (scene == 25)
                 {
-                    scene =99;
+                    scene = 99;
                 }
             }
         }
@@ -188,7 +188,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 99)
                 {
-                   Application.Exit() ;
+                    Application.Exit();
                 }
                 else if (scene == 13)
                 {
@@ -236,17 +236,59 @@ namespace schneesturm_snowstorm__multichoice_story
                     scene = 99;
                 }
             }
+
+
+            switch (scene)
+            {
+
+                case 0:  //start scene  
+                    outputLabel.Text = "You Wake up in a snow storm you ";
+                    redLabel.Text = "north";
+                    blueLabel.Text = "south";
+                    break;
+                case 1:
+                    outputLabel.Text = " you head north";
+                    redLabel.Text = "yes";
+                    blueLabel.Text = "no";
+                    break;
+                case 2:
+                    outputLabel.Text = "You fall into a pitfall";
+                    redLabel.Text = "Restart";
+                    break;
+                case 3:
+                    outputLabel.Text = "You come to a lake";
+                    redLabel.Text = "drink";
+                    blueLabel.Text = "no";
+                    break;
+                case 4:
+                    outputLabel.Text = "died of thirst";
+                    redLabel.Text = "reststart";
+                    break;
+                case 5:
+                    outputLabel.Text = "see horse";
+                    redLabel.Text = "Eat ";
+                    blueLabel.Text = "Nahh";
+                    break;
+                case 6:
+                    outputLabel.Text = "died of no meat";
+                    redLabel.Text = "Restart";
+                    break;
+                case 7:
+                    outputLabel.Text = "you win";
+                    break;
+                default:
+                    break;
+            }
         }
 
-        private void OutPutLabel_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
 
-    
 
 
-    
+
+
+
+
 

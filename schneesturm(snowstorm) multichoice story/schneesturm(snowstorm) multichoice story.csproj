@@ -86,5 +86,20 @@
   <ItemGroup>
     <None Include="Resources\red button.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_50x501.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

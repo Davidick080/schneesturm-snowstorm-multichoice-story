@@ -28,22 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.outPutLabel = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.carStuckSnow = new System.Windows.Forms.PictureBox();
             this.redLabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).BeginInit();
             this.SuspendLayout();
             // 
-            // outPutLabel
+            // outputLabel
             // 
-            this.outPutLabel.Font = new System.Drawing.Font("Normande BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outPutLabel.Location = new System.Drawing.Point(487, 22);
-            this.outPutLabel.Name = "outPutLabel";
-            this.outPutLabel.Size = new System.Drawing.Size(275, 23);
-            this.outPutLabel.TabIndex = 0;
-            this.outPutLabel.Text = "welcome to snowstorm";
-            this.outPutLabel.Click += new System.EventHandler(this.OutPutLabel_Click);
+            this.outputLabel.Font = new System.Drawing.Font("Normande BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Location = new System.Drawing.Point(487, 208);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(311, 208);
+            this.outputLabel.TabIndex = 0;
+            this.outputLabel.Text = "welcome to snowstorm";
             // 
             // carStuckSnow
             // 
@@ -59,7 +58,7 @@
             // 
             this.redLabel.AutoSize = true;
             this.redLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.redLabel.Location = new System.Drawing.Point(499, 109);
+            this.redLabel.Location = new System.Drawing.Point(510, 76);
             this.redLabel.Name = "redLabel";
             this.redLabel.Size = new System.Drawing.Size(216, 25);
             this.redLabel.TabIndex = 2;
@@ -69,7 +68,7 @@
             // 
             this.blueLabel.AutoSize = true;
             this.blueLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.Location = new System.Drawing.Point(572, 234);
+            this.blueLabel.Location = new System.Drawing.Point(510, 137);
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(214, 25);
             this.blueLabel.TabIndex = 3;
@@ -84,7 +83,7 @@
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.carStuckSnow);
-            this.Controls.Add(this.outPutLabel);
+            this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
@@ -96,7 +95,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label outPutLabel;
+        private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.PictureBox carStuckSnow;
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label blueLabel;
