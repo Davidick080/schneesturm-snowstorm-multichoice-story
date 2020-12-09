@@ -68,13 +68,13 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 if (scene == 8)
                 {
-                    scene = 14;
+                    scene = 16;
                 }
                 //There was no 9,10,12 on the chart or plan 
                 //note to self move these later in order
                 else if (scene == 16)
                 {
-                    scene = 20;
+                    scene = 18;
                 }
                 else if (scene == 18)
                 {
@@ -182,7 +182,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 if (scene == 8)
                 {
-                    scene = 16;
+                    scene = 14;
                 }
                 //There was no 9,10,12 on the chart or plan 
                 //note to self move these later in order
