@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Media;
 namespace schneesturm_snowstorm__multichoice_story
 {
     public partial class Form1 : Form
@@ -71,7 +71,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 18)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 11)
                 {
@@ -79,15 +79,15 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 99)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 13)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 14)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 15)
                 {
@@ -100,29 +100,33 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 17)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 18)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 19)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 20)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 21)
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 23)//there is also no 22,24
                 {
-                    scene = 99;
+                    scene = 27;
                 }
                 else if (scene == 25)
+                {
+                    scene = 27;
+                }
+                else if (scene == 27)
                 {
                     scene = 99;
                 }
@@ -146,7 +150,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 3)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 4)
                 {
@@ -176,7 +180,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 18)
                 {
-                    scene = 0;
+                    scene = 27;
 
                 }
                 else if (scene == 11)
@@ -189,11 +193,11 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 13)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 14)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 15)
                 {
@@ -206,58 +210,64 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 17)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 18)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 19)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 20)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 21)
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 23)//there is also no 22,24
                 {
-                    scene = 0;
+                    scene = 27;
                 }
                 else if (scene == 25)
+                {
+                    scene = 27;
+                }
+                else if (scene==27)
                 {
                     scene = 0;
                 }
             
-            
-            
+            }
+
             switch (scene)
             {
 
                 case 0:  //start scene  
-                    outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether syaying in your car or in ";
+                    carStuckSnow.BackgroundImage = Properties.Resources.quicksand;
+                    outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether ssaying in your car or in ";
                     redLabel.Text = "leave car";
                     blueLabel.Text = "Stay in car. ";
+
                     break;
                 case 1:
-                    outputLabel.Text = " you decide to leave your car but you grab..";
+                    outputLabel.Text = " you decide to leave your car but you grab...";
                     redLabel.Text = "your coat";
-                    blueLabel.Text = "Coat & bag";
-                    yellowLabel.Text = "nothing";
+                    blueLabel.Text = "Coat and bag";
+
                     break;
                 case 2:
-                    outputLabel.Text = "You decide to stay in your car for safty puposes  you look around your car for items to use.";
+                    outputLabel.Text = "You decide to stay in your car for safty puposes. you look around your car for items to use.";
                     redLabel.Text = "Grab flare gun";
                     blueLabel.Text = "use phone";
                     break;
                 case 3:
                     outputLabel.Text = "You decide that you can just simply walk out into the cold without anything. You died from frostbite.  ";
-                    redLabel.Text = "Restart";
-                    blueLabel.Text = "no?";
+                    redLabel.Text = "continue";
+                    blueLabel.Text = "continue";
                     break;
                 case 4:
                     outputLabel.Text = "You bring a coat with you and decide not to bring you bag. You dont know which direction the city is in though so you head";
@@ -291,8 +301,8 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 13:
                     outputLabel.Text = "You decide to call your work so you can get help but they mever come. you died of hypothermia";
-                    redLabel.Text = "Restart?";
-                    blueLabel.Text = "No";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 15:
                     outputLabel.Text = "You wave at the driver & he asks are you going to the nearby city?";
@@ -311,45 +321,51 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 17:
                     outputLabel.Text = "You for some reason neverd waved at the person on the snowmobile & died of hypothermia.";
-                    redLabel.Text = "restart?";
-                    blueLabel.Text = "nope";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 18:
                     outputLabel.Text = "You decide to not wave at the prson in the snowmobile & died of hypothermia.";
-                    redLabel.Text = "Restart";
-                    blueLabel.Text = "Nope";
+                    redLabel.Text = "continue";
+                    blueLabel.Text = "continue";
                     break;
                 case 19:
                     outputLabel.Text = "You say no to the driver of the snowmonile. He drives off then & you die of hypothermia ";
-                    redLabel.Text = "Restart?";
-                    blueLabel.Text = "No restart";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 20:
                     outputLabel.Text = " you wave to the person on the snowmobile & explain what happend and ask if he can drive you to the nearby city. Also you win ";
-                    redLabel.Text = "Restart game";
-                    blueLabel.Text = "no restart";
+                    redLabel.Text = "continue";
+                    blueLabel.Text = "continue";
                     break;
                 case 21:
                     outputLabel.Text = "You say yes to the driver and are taken to the city. You Win";
-                    redLabel.Text = "Restart?";
-                    blueLabel.Text = "No";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 23:
                     outputLabel.Text = "You decide to use the flare gun for warmth for some reason. You set the car to go boom & you burn to death";
-                    redLabel.Text = "Restart?";
-                    blueLabel.Text = "Nope";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 25:
                     outputLabel.Text = "You find a coat to keep yourself warm with & the police with eventually will come to get you out and take you to the city(or hospital in this case";
-                    redLabel.Text = "Restart?";
-                    blueLabel.Text = "Nope";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
                     break;
                 case 42:
                     outputLabel.Text = "You deide to go south and die of hypothermia.";
-                    redLabel.Text = "restart";
-                    blueLabel.Text = "no";
+                    redLabel.Text = "continue";
+                    blueLabel.Text = "continue";
                     break;
 
+                case 27:
+                    outputLabel.Text = "you died of hypothermia";
+                    redLabel.Text = "continue?";
+                    blueLabel.Text = "continue";
+                    break;
+                   
             }
         }
 
@@ -358,7 +374,12 @@ namespace schneesturm_snowstorm__multichoice_story
 
 
     }
+
+
 }
+
+
+
 
 
 

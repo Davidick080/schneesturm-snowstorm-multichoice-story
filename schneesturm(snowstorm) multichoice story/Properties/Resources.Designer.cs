@@ -93,6 +93,26 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap person_on_snow {
+            get {
+                object obj = ResourceManager.GetObject("person_on_snow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quicksand {
+            get {
+                object obj = ResourceManager.GetObject("quicksand", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red_50x50 {
             get {
                 object obj = ResourceManager.GetObject("red_50x50", resourceCulture);
@@ -106,6 +126,36 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         internal static System.Drawing.Bitmap red_button {
             get {
                 object obj = ResourceManager.GetObject("red button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snowmobile_7_car {
+            get {
+                object obj = ResourceManager.GetObject("snowmobile_7_car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snowstorm {
+            get {
+                object obj = ResourceManager.GetObject("snowstorm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snowstorm_trail {
+            get {
+                object obj = ResourceManager.GetObject("snowstorm_trail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

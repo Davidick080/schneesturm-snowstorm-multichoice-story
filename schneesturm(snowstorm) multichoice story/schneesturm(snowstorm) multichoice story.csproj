@@ -101,5 +101,20 @@
   <ItemGroup>
     <None Include="Resources\yellow_50x501.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quicksand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person on snow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowmobile 7 car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowstorm trail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowstorm.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

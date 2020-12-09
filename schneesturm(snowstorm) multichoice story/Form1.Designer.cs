@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.outputLabel = new System.Windows.Forms.Label();
-            this.redLabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
+            this.redLabel = new System.Windows.Forms.Label();
             this.carStuckSnow = new System.Windows.Forms.PictureBox();
-            this.yellowLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,27 +42,27 @@
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(311, 208);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "welcome to snowstorm";
-            // 
-            // redLabel
-            // 
-            this.redLabel.AutoSize = true;
-            this.redLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.redLabel.Location = new System.Drawing.Point(510, 76);
-            this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(216, 25);
-            this.redLabel.TabIndex = 2;
-            this.redLabel.Text = "press m to start";
+            this.outputLabel.Text = "snowstorm";
             // 
             // blueLabel
             // 
-            this.blueLabel.AutoSize = true;
             this.blueLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.Location = new System.Drawing.Point(510, 137);
+            this.blueLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.blue_50x50;
+            this.blueLabel.Location = new System.Drawing.Point(499, 109);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(214, 25);
+            this.blueLabel.Size = new System.Drawing.Size(243, 99);
             this.blueLabel.TabIndex = 3;
-            this.blueLabel.Text = "Press n to start";
+            this.blueLabel.Text = "Press m to start";
+            // 
+            // redLabel
+            // 
+            this.redLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.redLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.red_50x50;
+            this.redLabel.Location = new System.Drawing.Point(510, 32);
+            this.redLabel.Name = "redLabel";
+            this.redLabel.Size = new System.Drawing.Size(216, 110);
+            this.redLabel.TabIndex = 2;
+            this.redLabel.Text = "press n to start";
             // 
             // carStuckSnow
             // 
@@ -75,22 +74,12 @@
             this.carStuckSnow.TabIndex = 1;
             this.carStuckSnow.TabStop = false;
             // 
-            // yellowLabel
-            // 
-            this.yellowLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yellowLabel.Location = new System.Drawing.Point(509, 31);
-            this.yellowLabel.Name = "yellowLabel";
-            this.yellowLabel.Size = new System.Drawing.Size(215, 23);
-            this.yellowLabel.TabIndex = 4;
-            this.yellowLabel.Text = "press b to start";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.carStuckSnow);
@@ -100,7 +89,6 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -110,7 +98,6 @@
         private System.Windows.Forms.PictureBox carStuckSnow;
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label blueLabel;
-        private System.Windows.Forms.Label yellowLabel;
     }
 }
 

@@ -289,6 +289,12 @@
         AABJRU5ErkJggg==
 </value>
   </data>
+  <data name="person_on_snow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person on snow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quicksand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quicksand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="red button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red button.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -375,6 +381,15 @@
         OjvvZszjjL8P2YxkM0coompWjUdfI4FPNseCdlH86CwThMTzYDayAoGc0ybkKq43IquQuYgyUQgyCZF1
         1Xj8FyTwWc0BRIhoIiZrScueiEjqWs/0Tu2bAfz/29fSJkz4LzguQD/9QaAgAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="snowmobile_7_car" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowmobile 7 car.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowstorm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowstorm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowstorm_trail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowstorm trail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yellow_50x50" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
