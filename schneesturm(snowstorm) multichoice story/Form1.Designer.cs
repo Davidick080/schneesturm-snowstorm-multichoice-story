@@ -38,31 +38,31 @@
             // outputLabel
             // 
             this.outputLabel.Font = new System.Drawing.Font("Normande BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.Location = new System.Drawing.Point(487, 208);
+            this.outputLabel.Location = new System.Drawing.Point(487, 243);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(311, 208);
+            this.outputLabel.Size = new System.Drawing.Size(311, 198);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "snowstorm";
+            this.outputLabel.Text = "snowstorm                       You wake up in a snow storm you decide to ";
             // 
             // blueLabel
             // 
             this.blueLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.blue_50x50;
-            this.blueLabel.Location = new System.Drawing.Point(499, 109);
+            this.blueLabel.Location = new System.Drawing.Point(486, 9);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(243, 99);
+            this.blueLabel.Size = new System.Drawing.Size(124, 201);
             this.blueLabel.TabIndex = 3;
-            this.blueLabel.Text = "Press m to start";
+            this.blueLabel.Text = "Press m to leave car";
             // 
             // redLabel
             // 
             this.redLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.red_50x50;
-            this.redLabel.Location = new System.Drawing.Point(510, 32);
+            this.redLabel.Location = new System.Drawing.Point(627, 9);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(216, 110);
+            this.redLabel.Size = new System.Drawing.Size(171, 201);
             this.redLabel.TabIndex = 2;
-            this.redLabel.Text = "press n to start";
+            this.redLabel.Text = "press n to stay in car";
             // 
             // carStuckSnow
             // 

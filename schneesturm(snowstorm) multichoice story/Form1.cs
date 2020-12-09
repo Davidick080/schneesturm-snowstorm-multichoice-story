@@ -23,6 +23,13 @@ namespace schneesturm_snowstorm__multichoice_story
         {//this is for if the player presses the m key
             // this key bind is blue in other words always left
             //If a same sanario has one option make both keybinds the same option 
+            //Reminder this is for inputs for blueLabel
+//TO fix list 
+//Bugs Some certain screens show continue and do not tranition to screen 27 case's ideentifed with bug (5,),
+//Flare gun shot choice screen needs to be fixed and not give game over screen this number for flare gun choice and choices are 7.17 and 15
+//
+//
+//
             //
             if (m.KeyCode == Keys.M)
             {
@@ -33,11 +40,11 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 1)
                 {
-                    scene = 4;
+                    scene = 6;
                 }
                 else if (scene == 2)
                 {
-                    scene = 5;
+                    scene = 7;
                 }
                 else if (scene == 3)
                 {
@@ -45,11 +52,11 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 4)
                 {
-                    scene = 42;
+                    scene = 8;
                 }
                 else if (scene == 5)
                 {
-                    scene = 11;
+                    scene = 13;
                 }
                 else if (scene == 6)
                 {
@@ -57,7 +64,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 7)
                 {
-                    scene = 17;
+                    scene = 15;
                 }
                 if (scene == 8)
                 {
@@ -75,7 +82,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 11)
                 {
-                    scene = 23;
+                    scene = 25;
                 }
                 else if (scene == 99)
                 {
@@ -91,7 +98,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 15)
                 {
-                    scene = 19;
+                    scene = 21;
                 }
                 if (scene == 16)
                 {
@@ -128,10 +135,15 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 27)
                 {
-                    scene = 99;
+                    scene = 0;
+                }
+                else if (scene==42)
+                {
+                    scene = 27;
                 }
             }
-            //This is for the N keybind. or it is red button
+            //This is for the N keybind. or it is red button everythng on right of chart is for this option
+            //For redLabel
             if (m.KeyCode == Keys.N)
 
             {
@@ -142,11 +154,11 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 1)
                 {
-                    scene = 6;
+                    scene = 4;
                 }
                 else if (scene == 2)
                 {
-                    scene = 7;
+                    scene = 5;
                 }
                 else if (scene == 3)
                 {
@@ -154,11 +166,11 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 4)
                 {
-                    scene = 8;
+                    scene = 42;
                 }
                 else if (scene == 5)
                 {
-                    scene = 13;
+                    scene = 11;
                 }
                 else if (scene == 6)
                 {
@@ -166,7 +178,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 7)
                 {
-                    scene = 15;
+                    scene = 17;
                 }
                 if (scene == 8)
                 {
@@ -185,7 +197,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 11)
                 {
-                    scene = 25;
+                    scene = 23;
                 }
                 else if (scene == 99)
                 {
@@ -201,7 +213,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 15)
                 {
-                    scene = 21;
+                    scene = 19;
                 }
                 if (scene == 16)
                 {
@@ -236,9 +248,13 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if (scene==27)
+                else if (scene == 27)
                 {
-                    scene = 0;
+                    scene = 99;
+                }
+                else if (scene == 42)
+                {
+                    scene = 27;
                 }
             
             }
@@ -248,9 +264,9 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 case 0:  //start scene  
                     carStuckSnow.BackgroundImage = Properties.Resources.quicksand;
-                    outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether ssaying in your car or in ";
-                    redLabel.Text = "leave car";
-                    blueLabel.Text = "Stay in car. ";
+                    outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether staying in your car or leaveing it ";
+                    redLabel.Text = "n to leave car";
+                    blueLabel.Text = "m to Stay in car. ";
 
                     break;
                 case 1:
@@ -286,8 +302,8 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 7:
                     outputLabel.Text = "you decide to shot a flare off for help. You hear a snomobile going by you decide to...";
-                    redLabel.Text = "wave";
-                    blueLabel.Text = "not wave";
+                    redLabel.Text = "not waven";
+                    blueLabel.Text = "wave";
                     break;
                 case 8:
                     outputLabel.Text = "You decide to head north. You come across an injured person";
@@ -362,8 +378,8 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 case 27:
                     outputLabel.Text = "you died of hypothermia";
-                    redLabel.Text = "continue?";
-                    blueLabel.Text = "continue";
+                    redLabel.Text = "log out?";
+                    blueLabel.Text = "back to start";
                     break;
                    
             }
