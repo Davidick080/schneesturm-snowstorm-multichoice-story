@@ -127,13 +127,9 @@ namespace schneesturm_snowstorm__multichoice_story
                     scene = 99;
                 }
             }
-        }
-        private void Form2_KeyDown(object sender, KeyEventArgs E)
-        {//this is for if the player presses the e key
-            // this key bind is red in other words always right
-            //If a same sanario has one option make both keybinds the same option 
-            //
-            if (E.KeyCode == Keys.E)
+            //This is for the N keybind. or it is red button
+            if (m.KeyCode == Keys.N)
+
             {
                 if (scene == 0)
                 {
@@ -150,7 +146,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 3)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 4)
                 {
@@ -180,7 +176,8 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 18)
                 {
-                    scene = 99;
+                    scene = 0;
+
                 }
                 else if (scene == 11)
                 {
@@ -192,11 +189,11 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 13)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 14)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 15)
                 {
@@ -209,77 +206,155 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 17)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 18)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 19)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 20)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 21)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 23)//there is also no 22,24
                 {
-                    scene = 99;
+                    scene = 0;
                 }
                 else if (scene == 25)
                 {
-                    scene = 99;
+                    scene = 0;
                 }
-            }
-
-
+            
+            
+            
             switch (scene)
             {
 
                 case 0:  //start scene  
-                    outputLabel.Text = "You Wake up in a snow storm you ";
-                    redLabel.Text = "north";
-                    blueLabel.Text = "south";
+                    outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether syaying in your car or in ";
+                    redLabel.Text = "leave car";
+                    blueLabel.Text = "Stay in car. ";
                     break;
                 case 1:
-                    outputLabel.Text = " you head north";
-                    redLabel.Text = "yes";
-                    blueLabel.Text = "no";
+                    outputLabel.Text = " you decide to leave your car but you grab..";
+                    redLabel.Text = "your coat";
+                    blueLabel.Text = "Coat & bag";
+                    yellowLabel.Text = "nothing";
                     break;
                 case 2:
-                    outputLabel.Text = "You fall into a pitfall";
-                    redLabel.Text = "Restart";
+                    outputLabel.Text = "You decide to stay in your car for safty puposes  you look around your car for items to use.";
+                    redLabel.Text = "Grab flare gun";
+                    blueLabel.Text = "use phone";
                     break;
                 case 3:
-                    outputLabel.Text = "You come to a lake";
-                    redLabel.Text = "drink";
-                    blueLabel.Text = "no";
+                    outputLabel.Text = "You decide that you can just simply walk out into the cold without anything. You died from frostbite.  ";
+                    redLabel.Text = "Restart";
+                    blueLabel.Text = "no?";
                     break;
                 case 4:
-                    outputLabel.Text = "died of thirst";
-                    redLabel.Text = "reststart";
+                    outputLabel.Text = "You bring a coat with you and decide not to bring you bag. You dont know which direction the city is in though so you head";
+                    redLabel.Text = "North";
+                    blueLabel.Text = "South";
                     break;
                 case 5:
-                    outputLabel.Text = "see horse";
-                    redLabel.Text = "Eat ";
-                    blueLabel.Text = "Nahh";
+                    outputLabel.Text = "You find your phone with enough Battery to call someone who will you call";
+                    redLabel.Text = "The police";
+                    blueLabel.Text = "Your work";
                     break;
                 case 6:
-                    outputLabel.Text = "died of no meat";
-                    redLabel.Text = "Restart";
+                    outputLabel.Text = "You decide to bring both your bag & coat. You have a gps so you dont need to figure out which way you need to go. You come acroos an ijured person  ";
+                    redLabel.Text = "Help";
+                    blueLabel.Text = "not help";
                     break;
                 case 7:
-                    outputLabel.Text = "you win";
+                    outputLabel.Text = "you decide to shot a flare off for help. You hear a snomobile going by you decide to...";
+                    redLabel.Text = "wave";
+                    blueLabel.Text = "not wave";
                     break;
-                default:
+                case 8:
+                    outputLabel.Text = "You decide to head north. You come across an injured person";
+                    redLabel.Text = "Will you help?";
+                    blueLabel.Text = "not person";
                     break;
+                case 11:
+                    outputLabel.Text = " you call the police and are told to stay put. You decide to use while you wait to stay warm..";
+                    redLabel.Text = "Coat";
+                    blueLabel.Text = "Flare gun";
+                    break;
+                case 13:
+                    outputLabel.Text = "You decide to call your work so you can get help but they mever come. you died of hypothermia";
+                    redLabel.Text = "Restart?";
+                    blueLabel.Text = "No";
+                    break;
+                case 15:
+                    outputLabel.Text = "You wave at the driver & he asks are you going to the nearby city?";
+                    redLabel.Text = "yes";
+                    blueLabel.Text = "Nope";
+                    break;
+                case 14:
+                    outputLabel.Text = "You do not help the injured person. You die of frostbite on the way to the city.congrats ";
+                    redLabel.Text = "North";
+                    blueLabel.Text = "South";
+                    break;
+                case 16:
+                    outputLabel.Text = "You see an injured person will you help them?";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "Every man for them self";
+                    break;
+                case 17:
+                    outputLabel.Text = "You for some reason neverd waved at the person on the snowmobile & died of hypothermia.";
+                    redLabel.Text = "restart?";
+                    blueLabel.Text = "nope";
+                    break;
+                case 18:
+                    outputLabel.Text = "You decide to not wave at the prson in the snowmobile & died of hypothermia.";
+                    redLabel.Text = "Restart";
+                    blueLabel.Text = "Nope";
+                    break;
+                case 19:
+                    outputLabel.Text = "You say no to the driver of the snowmonile. He drives off then & you die of hypothermia ";
+                    redLabel.Text = "Restart?";
+                    blueLabel.Text = "No restart";
+                    break;
+                case 20:
+                    outputLabel.Text = " you wave to the person on the snowmobile & explain what happend and ask if he can drive you to the nearby city. Also you win ";
+                    redLabel.Text = "Restart game";
+                    blueLabel.Text = "no restart";
+                    break;
+                case 21:
+                    outputLabel.Text = "You say yes to the driver and are taken to the city. You Win";
+                    redLabel.Text = "Restart?";
+                    blueLabel.Text = "No";
+                    break;
+                case 23:
+                    outputLabel.Text = "You decide to use the flare gun for warmth for some reason. You set the car to go boom & you burn to death";
+                    redLabel.Text = "Restart?";
+                    blueLabel.Text = "Nope";
+                    break;
+                case 25:
+                    outputLabel.Text = "You find a coat to keep yourself warm with & the police with eventually will come to get you out and take you to the city(or hospital in this case";
+                    redLabel.Text = "Restart?";
+                    blueLabel.Text = "Nope";
+                    break;
+                case 42:
+                    outputLabel.Text = "You deide to go south and die of hypothermia.";
+                    redLabel.Text = "restart";
+                    blueLabel.Text = "no";
+                    break;
+
             }
         }
+
+
+
 
 
     }
