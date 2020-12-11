@@ -67,12 +67,13 @@
             // carStuckSnow
             // 
             this.carStuckSnow.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.car_stuck_in_snow;
-            this.carStuckSnow.Location = new System.Drawing.Point(-37, -31);
+            this.carStuckSnow.Location = new System.Drawing.Point(-54, -30);
             this.carStuckSnow.Name = "carStuckSnow";
             this.carStuckSnow.Size = new System.Drawing.Size(518, 489);
             this.carStuckSnow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.carStuckSnow.TabIndex = 1;
             this.carStuckSnow.TabStop = false;
+            this.carStuckSnow.Click += new System.EventHandler(this.CarStuckSnow_Click);
             // 
             // Form1
             // 
