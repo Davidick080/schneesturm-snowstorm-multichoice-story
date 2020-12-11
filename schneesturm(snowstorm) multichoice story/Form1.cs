@@ -101,10 +101,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if (scene == 18)
-                {
-                    scene = 27;
-                }
+              
                 else if (scene == 19)
                 {
                     scene = 27;
@@ -214,10 +211,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if (scene == 18)
-                {
-                    scene = 27;
-                }
+           
                 else if (scene == 19)
                 {
                     scene = 27;
@@ -258,8 +252,8 @@ namespace schneesturm_snowstorm__multichoice_story
                 case 0:  //start scene  
                     carStuckSnow.BackgroundImage = Properties.Resources.quicksand;
                     outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether staying in your car or leaveing it ";
-                    redLabel.Text = "n to leave car";
-                    blueLabel.Text = "m to Stay in car. ";
+                    redLabel.Text = "m to leave car";
+                    blueLabel.Text = "n to Stay in car. ";
 
                     break;
                 case 1:
@@ -370,6 +364,11 @@ namespace schneesturm_snowstorm__multichoice_story
                     blueLabel.Text = "back to start";
                     break;
 
+                case 28:
+                    outputLabel.Text = "you made it to the city";
+                    redLabel.Text = "log out";
+                    blueLabel.Text = "back to start";
+                    break;
             }
         }
 
