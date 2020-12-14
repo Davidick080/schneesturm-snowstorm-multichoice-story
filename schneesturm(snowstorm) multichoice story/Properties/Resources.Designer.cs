@@ -73,9 +73,39 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap car_inside_snow {
+            get {
+                object obj = ResourceManager.GetObject("car inside snow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap car_stuck_in_snow {
             get {
                 object obj = ResourceManager.GetObject("car stuck in snow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flare_gun_being_used {
+            get {
+                object obj = ResourceManager.GetObject("flare gun being used", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap game_over {
+            get {
+                object obj = ResourceManager.GetObject("game over", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

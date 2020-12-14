@@ -116,5 +116,14 @@
   <ItemGroup>
     <None Include="Resources\snowstorm.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car inside snow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flare gun being used.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game over.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
