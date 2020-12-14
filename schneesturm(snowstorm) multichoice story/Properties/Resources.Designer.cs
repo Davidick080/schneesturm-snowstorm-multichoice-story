@@ -93,6 +93,16 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cityBlizzard {
+            get {
+                object obj = ResourceManager.GetObject("cityBlizzard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flare_gun_being_used {
             get {
                 object obj = ResourceManager.GetObject("flare gun being used", resourceCulture);

@@ -44,7 +44,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 2)
                 {
-                    scene = 7;
+                    scene = 5;
                 }
 
                 else if (scene == 4)
@@ -155,7 +155,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 2)
                 {
-                    scene = 5;
+                    scene = 7;
                 }
 
                 else if (scene == 4)
@@ -389,6 +389,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
 
                 case 28:
+                    carStuckSnow.BackgroundImage = Properties.Resources.cityBlizzard;
                     outputLabel.Text = "you made it to the city";
                     redLabel.Text = "log out";
                     blueLabel.Text = "back to start";

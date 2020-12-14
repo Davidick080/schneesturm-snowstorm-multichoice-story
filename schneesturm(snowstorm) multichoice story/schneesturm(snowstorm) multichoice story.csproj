@@ -125,5 +125,8 @@
   <ItemGroup>
     <None Include="Resources\game over.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cityBlizzard.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
