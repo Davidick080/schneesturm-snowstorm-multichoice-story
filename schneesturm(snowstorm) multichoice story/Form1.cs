@@ -26,9 +26,8 @@ namespace schneesturm_snowstorm__multichoice_story
          //Reminder this is for inputs for blueLabel
          //TO fix list 
          //Bugs Some certain screens show continue and do not tranition to screen 27 case's ideentifed with bug (5,),
-         //Flare gun shot choice screen needs to be fixed and not give game over screen this number for flare gun choice and choices are 7.17 and 15
-         //
-         //
+         //Flare gun shot choice screen needs to be fixed and not give game over screen this number for flare gun choice and choices are 7.17 and 15  
+         //Reminder find canoot- erase or backspace on keyboard for some reason from the typeing of this typeing .
          //
          //
             if (m.KeyCode == Keys.M)
@@ -248,12 +247,12 @@ namespace schneesturm_snowstorm__multichoice_story
 
             switch (scene)
             {
-
+                //
                 case 0:  //start scene  
                     carStuckSnow.BackgroundImage = Properties.Resources.quicksand;
                     outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether staying in your car or leaveing it ";
-                    redLabel.Text = "m to leave car";
-                    blueLabel.Text = "n to Stay in car. ";
+                  blueLabel.Text = "m to leave car";
+                  redLabel.Text = "n to Stay in car. ";
 
                     break;
                 case 1:
@@ -376,14 +375,20 @@ namespace schneesturm_snowstorm__multichoice_story
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void outputLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
 }
-
-
-
-
 
 
 

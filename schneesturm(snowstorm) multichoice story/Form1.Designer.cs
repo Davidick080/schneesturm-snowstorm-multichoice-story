@@ -37,16 +37,17 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.Font = new System.Drawing.Font("Normande BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.Location = new System.Drawing.Point(487, 243);
+            this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Location = new System.Drawing.Point(470, 207);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(311, 198);
+            this.outputLabel.Size = new System.Drawing.Size(456, 198);
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = "snowstorm                       You wake up in a snow storm you decide to ";
+            this.outputLabel.Click += new System.EventHandler(this.outputLabel_Click);
             // 
             // blueLabel
             // 
-            this.blueLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.blue_50x50;
             this.blueLabel.Location = new System.Drawing.Point(486, 9);
             this.blueLabel.Name = "blueLabel";
@@ -56,7 +57,7 @@
             // 
             // redLabel
             // 
-            this.redLabel.Font = new System.Drawing.Font("Normande BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.redLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLabel.Image = global::schneesturm_snowstorm__multichoice_story.Properties.Resources.red_50x50;
             this.redLabel.Location = new System.Drawing.Point(627, 9);
             this.redLabel.Name = "redLabel";
@@ -80,13 +81,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(927, 414);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.carStuckSnow);
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).EndInit();
             this.ResumeLayout(false);
