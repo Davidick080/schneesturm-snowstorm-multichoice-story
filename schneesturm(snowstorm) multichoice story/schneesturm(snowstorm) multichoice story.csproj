@@ -128,5 +128,11 @@
   <ItemGroup>
     <None Include="Resources\cityBlizzard.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital bed.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cops in snow storm.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

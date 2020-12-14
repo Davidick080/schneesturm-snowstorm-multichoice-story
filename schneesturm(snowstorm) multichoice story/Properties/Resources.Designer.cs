@@ -103,6 +103,16 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cops_in_snow_storm {
+            get {
+                object obj = ResourceManager.GetObject("cops in snow storm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flare_gun_being_used {
             get {
                 object obj = ResourceManager.GetObject("flare gun being used", resourceCulture);
@@ -126,6 +136,16 @@ namespace schneesturm_snowstorm__multichoice_story.Properties {
         internal static System.Drawing.Bitmap green_50x50 {
             get {
                 object obj = ResourceManager.GetObject("green_50x50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hospital_bed {
+            get {
+                object obj = ResourceManager.GetObject("hospital bed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

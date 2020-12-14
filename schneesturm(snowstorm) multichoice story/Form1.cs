@@ -71,7 +71,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 //note to self move these later in order
                 else if(scene==11)
                 {
-                    scene = 25;
+                    scene = 23;
                 }
                 else if (scene == 16)
                 {
@@ -81,10 +81,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if (scene == 11)
-                {
-                    scene = 25;
-                }
+               
                 else if (scene == 99)
                 {
                     Application.Exit();
@@ -191,7 +188,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 11)
                 {
-                    scene = 23;
+                    scene = 25;
                 }
                 else if (scene == 99)
                 {
@@ -269,7 +266,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 2:
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
-                    outputLabel.Text = "You decide to stay in your car for safty puposes. you look around your car for items to use.";
+                    outputLabel.Text = "You decide to stay in your car for safety puposes. you look around your car for items to use.";
                     redLabel.Text = "Grab flare gun";
                     blueLabel.Text = "use phone";
                     break;
@@ -369,8 +366,8 @@ namespace schneesturm_snowstorm__multichoice_story
                     blueLabel.Text = "continue";
                     break;
                 case 25:
-                    carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
-                    outputLabel.Text = "You find a coat to keep yourself warm with & the police with eventually will come to get you out and take you to the city(or hospital in this case";
+                    carStuckSnow.BackgroundImage = Properties.Resources.hospital_bed;
+                    outputLabel.Text = "You find a coat to keep yourself warm with & the police with eventually will come to get you out and take you to the city(or hospital in this case. You wake up a few hours later in a hospital bed)";
                     redLabel.Text = "continue?";
                     blueLabel.Text = "continue";
                     break;

@@ -133,6 +133,9 @@
   <data name="person_on_snow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\person on snow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hospital bed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hospital bed.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="flare gun being used" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flare gun being used.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -316,6 +319,9 @@
   <data name="quicksand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\quicksand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cityBlizzard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cityBlizzard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="red_50x50" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -484,7 +490,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="cityBlizzard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cityBlizzard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cops in snow storm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cops in snow storm.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
