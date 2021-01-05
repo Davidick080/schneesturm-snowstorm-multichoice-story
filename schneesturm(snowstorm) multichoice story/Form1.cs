@@ -63,7 +63,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 15;
                 }
-                if (scene == 8)
+               else if (scene == 8)
                 {
                     scene = 16;
                 }
@@ -171,7 +171,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 17;
                 }
-                if (scene == 8)
+               else if (scene == 8)
                 {
                     scene = 14;
                 }
