@@ -46,7 +46,7 @@
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = "snowstorm                                                       You wake up in a " +
     "snow storm you decide to ";
-            this.outputLabel.Click += new System.EventHandler(this.outputLabel_Click);
+          
             // 
             // label1
             // 
@@ -92,7 +92,7 @@
             this.carStuckSnow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.carStuckSnow.TabIndex = 1;
             this.carStuckSnow.TabStop = false;
-            this.carStuckSnow.Click += new System.EventHandler(this.CarStuckSnow_Click);
+           
             // 
             // Form1
             // 
@@ -108,7 +108,7 @@
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+           
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).EndInit();
             this.ResumeLayout(false);

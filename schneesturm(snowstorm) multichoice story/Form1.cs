@@ -13,7 +13,7 @@ namespace schneesturm_snowstorm__multichoice_story
     public partial class Form1 : Form
     {
         int scene = 0;
-        
+
         public Form1()
         {
 
@@ -27,7 +27,7 @@ namespace schneesturm_snowstorm__multichoice_story
          //Reminder this is for inputs for blueLabel
          //TO fix list 
          //Bugs Some certain screens show continue and do not tranition to screen 27 case's ideentifed with bug (5,),
-         //Flare gun shot choice screen needs to be fixed and not give game over screen this number for flare gun choice and choices are 7.17 and 15  
+         
          //Reminder find canoot- erase or backspace on keyboard for some reason from the typeing of this typeing .
          //
          //
@@ -49,7 +49,7 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 4)
                 {
-                    scene = 8;
+                    scene = 42;
                 }
                 else if (scene == 5)
                 {
@@ -57,19 +57,19 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 6)
                 {
-                    scene = 16;
+                    scene = 14;
                 }
                 else if (scene == 7)
                 {
                     scene = 15;
                 }
-               else if (scene == 8)
+                else if (scene == 8)
                 {
-                    scene = 16;
+                    scene = 14;
                 }
                 //There was no 9,10,12 on the chart or plan 
                 //note to self move these later in order
-                else if(scene==11)
+                else if (scene == 11)
                 {
                     scene = 23;
                 }
@@ -81,7 +81,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-               
+
                 else if (scene == 99)
                 {
                     Application.Exit();
@@ -96,13 +96,13 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 15)
                 {
-                    scene = 21;
+                    scene = 19;
                 }
                 else if (scene == 17)
                 {
                     scene = 27;
                 }
-              
+
                 else if (scene == 19)
                 {
                     scene = 27;
@@ -131,8 +131,8 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if(scene==28)
-                    {
+                else if (scene == 28)
+                {
                     scene = 0;
                 }
             }
@@ -157,7 +157,7 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 else if (scene == 4)
                 {
-                    scene = 42;
+                    scene = 8;
                 }
                 else if (scene == 5)
                 {
@@ -165,15 +165,15 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 6)
                 {
-                    scene = 14;
+                    scene = 16;
                 }
                 else if (scene == 7)
                 {
                     scene = 17;
                 }
-               else if (scene == 8)
+                else if (scene == 8)
                 {
-                    scene = 14;
+                    scene = 16;
                 }
                 //There was no 3,9,10,12 on the chart or plan 
                 //note to self move these later in order
@@ -204,15 +204,15 @@ namespace schneesturm_snowstorm__multichoice_story
                 }
                 else if (scene == 15)
                 {
-                    scene = 19;
+                    scene = 21;
                 }
-             
+
 
                 else if (scene == 17)
                 {
                     scene = 27;
                 }
-           
+
                 else if (scene == 19)
                 {
                     scene = 27;
@@ -241,7 +241,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-                else if(scene==28)
+                else if (scene == 28)
                 {
                     scene = 99;
                 }
@@ -253,8 +253,8 @@ namespace schneesturm_snowstorm__multichoice_story
                 case 0:  //start scene  
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
                     outputLabel.Text = "You Wake up in a snow storm. You contemoplate ether staying in your car or leaveing it ";
-                  blueLabel.Text = "m to leave car";
-                  redLabel.Text = "n to Stay in car. ";
+                    blueLabel.Text = "m to leave car";
+                    redLabel.Text = "n to Stay in car. ";
 
                     break;
                 case 1:
@@ -325,9 +325,9 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 16:
                     carStuckSnow.BackgroundImage = Properties.Resources.snowstorm;
-                    outputLabel.Text = "You see an injured person will you help them?";
-                    redLabel.Text = "Yes";
-                    blueLabel.Text = "nope";
+                    outputLabel.Text = "You help the injured person & hear a snowmobile come by what do you do?";
+                    redLabel.Text = "wave";
+                    blueLabel.Text = "do nothing";
                     break;
                 case 17:
                     carStuckSnow.BackgroundImage = Properties.Resources.person_on_snow;
@@ -394,23 +394,8 @@ namespace schneesturm_snowstorm__multichoice_story
             }
         }
 
-        private void CarStuckSnow_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void outputLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-
-
 }
 
 
