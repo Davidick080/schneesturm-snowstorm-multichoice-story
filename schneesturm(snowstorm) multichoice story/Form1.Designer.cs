@@ -46,7 +46,6 @@
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = "snowstorm                                                       You wake up in a " +
     "snow storm you decide to ";
-          
             // 
             // label1
             // 
@@ -72,7 +71,7 @@
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(124, 201);
             this.blueLabel.TabIndex = 3;
-            this.blueLabel.Text = "Press m to leave car";
+            this.blueLabel.Text = "To leave car";
             // 
             // redLabel
             // 
@@ -82,17 +81,17 @@
             this.redLabel.Name = "redLabel";
             this.redLabel.Size = new System.Drawing.Size(171, 201);
             this.redLabel.TabIndex = 2;
-            this.redLabel.Text = "press n to stay in car";
+            this.redLabel.Text = "Stay in car";
             // 
             // carStuckSnow
             // 
+            this.carStuckSnow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.carStuckSnow.Location = new System.Drawing.Point(-5, -1);
             this.carStuckSnow.Name = "carStuckSnow";
             this.carStuckSnow.Size = new System.Drawing.Size(469, 419);
             this.carStuckSnow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.carStuckSnow.TabIndex = 1;
             this.carStuckSnow.TabStop = false;
-           
             // 
             // Form1
             // 
@@ -108,7 +107,6 @@
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
             this.Text = "Form1";
-           
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.carStuckSnow)).EndInit();
             this.ResumeLayout(false);
