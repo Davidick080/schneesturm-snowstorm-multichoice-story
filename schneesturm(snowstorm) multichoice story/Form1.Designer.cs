@@ -85,7 +85,7 @@
             // 
             // carStuckSnow
             // 
-            this.carStuckSnow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.carStuckSnow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.carStuckSnow.Location = new System.Drawing.Point(-5, -1);
             this.carStuckSnow.Name = "carStuckSnow";
             this.carStuckSnow.Size = new System.Drawing.Size(469, 419);
