@@ -259,7 +259,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 1:
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
-                    outputLabel.Text = " you decide to leave your car but you grab...";
+                    outputLabel.Text = " You decide to leave your car but you grab...";
                     redLabel.Text = "your coat";
                     blueLabel.Text = "Coat and bag";
 
@@ -289,7 +289,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 7:
                     carStuckSnow.BackgroundImage = Properties.Resources.flare_gun_being_used;
-                    outputLabel.Text = "you decide to shot a flare off for help. You hear a snomobile going by you decide to...";
+                    outputLabel.Text = "You decide to shot a flare off for help. You hear a snomobile going by you decide to...";
                     redLabel.Text = "not waven";
                     blueLabel.Text = "wave";
                     break;
@@ -301,7 +301,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 11:
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
-                    outputLabel.Text = " you call the police and are told to stay put. You decide to use while you wait to stay warm..";
+                    outputLabel.Text = " You call the police and are told to stay put. You decide to use while you wait to stay warm..";
                     redLabel.Text = "Coat";
                     blueLabel.Text = "Flare gun";
                     break;
@@ -349,7 +349,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 20:
                     carStuckSnow.BackgroundImage = Properties.Resources.snowmobile_7_car;
-                    outputLabel.Text = " you wave to the person on the snowmobile & explain what happend and ask if he can drive you to the nearby city. Also you win ";
+                    outputLabel.Text = " You wave to the person on the snowmobile & explain what happend and ask if he can drive you to the nearby city. Also you win ";
                     redLabel.Text = "continue";
                     blueLabel.Text = "continue";
                     break;
@@ -380,14 +380,14 @@ namespace schneesturm_snowstorm__multichoice_story
 
                 case 27:
                     carStuckSnow.BackgroundImage = Properties.Resources.game_over;
-                    outputLabel.Text = "you died of hypothermia congrats";
+                    outputLabel.Text = "You died of hypothermia congrats";
                     redLabel.Text = "log out?";
                     blueLabel.Text = "back to start";
                     break;
 
                 case 28:
                     carStuckSnow.BackgroundImage = Properties.Resources.cityBlizzard;
-                    outputLabel.Text = "you made it to the city";
+                    outputLabel.Text = "You made it to the city";
                     redLabel.Text = "log out";
                     blueLabel.Text = "back to start";
                     break;

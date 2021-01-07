@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.outputLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.mlabel = new System.Windows.Forms.Label();
+            this.nlabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
             this.redLabel = new System.Windows.Forms.Label();
             this.carStuckSnow = new System.Windows.Forms.PictureBox();
@@ -47,21 +47,21 @@
             this.outputLabel.Text = "snowstorm                                                       You wake up in a " +
     "snow storm you decide to ";
             // 
-            // label1
+            // mlabel
             // 
-            this.label1.Location = new System.Drawing.Point(507, 150);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 23);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "press m for blue";
+            this.mlabel.Location = new System.Drawing.Point(498, 150);
+            this.mlabel.Name = "mlabel";
+            this.mlabel.Size = new System.Drawing.Size(84, 23);
+            this.mlabel.TabIndex = 4;
+            this.mlabel.Text = "press m for blue";
             // 
-            // label2
+            // nlabel
             // 
-            this.label2.Location = new System.Drawing.Point(677, 150);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 23);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "press n for red";
+            this.nlabel.Location = new System.Drawing.Point(677, 150);
+            this.nlabel.Name = "nlabel";
+            this.nlabel.Size = new System.Drawing.Size(77, 23);
+            this.nlabel.TabIndex = 5;
+            this.nlabel.Text = "press n for red";
             // 
             // blueLabel
             // 
@@ -99,8 +99,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(927, 414);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.nlabel);
+            this.Controls.Add(this.mlabel);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.carStuckSnow);
@@ -119,8 +119,8 @@
         private System.Windows.Forms.PictureBox carStuckSnow;
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label blueLabel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label mlabel;
+        private System.Windows.Forms.Label nlabel;
     }
 }
 
