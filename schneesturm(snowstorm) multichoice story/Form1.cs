@@ -25,12 +25,7 @@ namespace schneesturm_snowstorm__multichoice_story
          // this key bind is blue in other words always left
          //If a same sanario has one option make both keybinds the same option 
          //Reminder this is for inputs for blueLabel
-         //TO fix list 
-         //Bugs Some certain screens show continue and do not tranition to screen 27 case's ideentifed with bug (5,),
-         
-         //Reminder find canoot- erase or backspace on keyboard for some reason from the typeing of this typeing .
-         //
-         //
+      
             if (m.KeyCode == Keys.M)
             {
                 if (scene == 0)
@@ -45,6 +40,10 @@ namespace schneesturm_snowstorm__multichoice_story
                 else if (scene == 2)
                 {
                     scene = 5;
+                }
+                else if (scene == 3)
+                {
+                    scene = 27;
                 }
 
                 else if (scene == 4)
@@ -81,7 +80,7 @@ namespace schneesturm_snowstorm__multichoice_story
                 {
                     scene = 27;
                 }
-
+                //exit game scene
                 else if (scene == 99)
                 {
                     Application.Exit();
@@ -136,6 +135,18 @@ namespace schneesturm_snowstorm__multichoice_story
                     scene = 0;
                 }
             }
+            //3rd option
+            if(m.KeyCode==Keys.B)
+            {
+                if(scene==1)
+                {
+                    scene = 3;
+                }
+                else if(scene==3)
+                {
+                    scene = 27;
+                }
+            }
             //This is for the N keybind. or it is red button everythng on right of chart is for this option
             //For redLabel
             if (m.KeyCode == Keys.N)
@@ -153,6 +164,10 @@ namespace schneesturm_snowstorm__multichoice_story
                 else if (scene == 2)
                 {
                     scene = 7;
+                }
+                else if(scene==3)
+                {
+                    scene = 27;
                 }
 
                 else if (scene == 4)
@@ -260,8 +275,12 @@ namespace schneesturm_snowstorm__multichoice_story
                 case 1:
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
                     outputLabel.Text = " You decide to leave your car but you grab...";
-                    redLabel.Text = "your coat";
+                    redLabel.Text = "Your coat";
                     blueLabel.Text = "Coat and bag";
+                    yellowLabel.Visible = true;
+                    bLabel.Visible = true;
+                    yellowLabel.Text = "Nothing";
+                    bLabel.Text = "Press b for yellow";
 
                     break;
                 case 2:
@@ -269,6 +288,15 @@ namespace schneesturm_snowstorm__multichoice_story
                     outputLabel.Text = "You decide to stay in your car for safety puposes. you look around your car for items to use.";
                     redLabel.Text = "Grab flare gun";
                     blueLabel.Text = "use phone";
+                    break;
+                case 3:
+                      carStuckSnow.BackgroundImage = Properties.Resources.game_over;
+                      outputLabel.Text = "You decide to go out into the winter storm without a coat.";
+                      redLabel.Text = "continue?";
+                      blueLabel.Text = "continue";
+                      yellowLabel.Visible = false;
+                      bLabel.Visible = false;
+                    
                     break;
                 case 4:
                     carStuckSnow.BackgroundImage = Properties.Resources.snowstorm;
@@ -361,7 +389,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     break;
                 case 23:
                     carStuckSnow.BackgroundImage = Properties.Resources.car_inside_snow;
-                    outputLabel.Text = "You decide to use the flare gun for warmth for some reason. You set the car to go boom & you burn to death";
+                    outputLabel.Text = "You decide to use the flare gun for warmth for some reason. You set the car to go boom & you burn to death.";
                     redLabel.Text = "continue?";
                     blueLabel.Text = "continue";
                     break;
@@ -377,7 +405,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     redLabel.Text = "continue";
                     blueLabel.Text = "continue";
                     break;
-
+             //lose screen
                 case 27:
                     carStuckSnow.BackgroundImage = Properties.Resources.game_over;
                     outputLabel.Text = "You died of hypothermia congrats";
@@ -385,6 +413,7 @@ namespace schneesturm_snowstorm__multichoice_story
                     blueLabel.Text = "back to start";
                     break;
 
+             //victory screen
                 case 28:
                     carStuckSnow.BackgroundImage = Properties.Resources.cityBlizzard;
                     outputLabel.Text = "You made it to the city";
@@ -394,7 +423,7 @@ namespace schneesturm_snowstorm__multichoice_story
             }
         }
 
-
+        
     }
 }
 
